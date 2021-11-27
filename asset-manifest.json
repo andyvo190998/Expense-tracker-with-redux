@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/andyvo190998/Expense-Tracker-With-Redux.git/static/css/main.87f51c2e.chunk.css",
+    "main.js": "/andyvo190998/Expense-Tracker-With-Redux.git/static/js/main.33baa112.chunk.js",
+    "main.js.map": "/andyvo190998/Expense-Tracker-With-Redux.git/static/js/main.33baa112.chunk.js.map",
+    "runtime-main.js": "/andyvo190998/Expense-Tracker-With-Redux.git/static/js/runtime-main.63c4ff0c.js",
+    "runtime-main.js.map": "/andyvo190998/Expense-Tracker-With-Redux.git/static/js/runtime-main.63c4ff0c.js.map",
+    "static/js/2.72786b23.chunk.js": "/andyvo190998/Expense-Tracker-With-Redux.git/static/js/2.72786b23.chunk.js",
+    "static/js/2.72786b23.chunk.js.map": "/andyvo190998/Expense-Tracker-With-Redux.git/static/js/2.72786b23.chunk.js.map",
+    "index.html": "/andyvo190998/Expense-Tracker-With-Redux.git/index.html",
+    "static/css/main.87f51c2e.chunk.css.map": "/andyvo190998/Expense-Tracker-With-Redux.git/static/css/main.87f51c2e.chunk.css.map",
+    "static/js/2.72786b23.chunk.js.LICENSE.txt": "/andyvo190998/Expense-Tracker-With-Redux.git/static/js/2.72786b23.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.63c4ff0c.js",
+    "static/js/2.72786b23.chunk.js",
+    "static/css/main.87f51c2e.chunk.css",
+    "static/js/main.33baa112.chunk.js"
+  ]
+}
