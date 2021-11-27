@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import Header from './components/Header';
+import Balance from './components/Balance';
+import './app.css';
+import IncomeExpense from './components/IncomeExpense';
+import TransactionList from './components/TransactionList';
+import AddTransaction from './components/AddTransaction';
+import { Provider } from 'react-redux';
+import store from './Store';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Provider store={store}>
+      <div>
+        <Header />
+        <div className="container">
+          <Balance />
+          <IncomeExpense />
+          <TransactionList />
+          <AddTransaction />
+        </div>
+      </div>
+    </Provider>
+  )
 }
 
-export default App;
+export default App
