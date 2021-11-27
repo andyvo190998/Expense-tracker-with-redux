@@ -32,6 +32,12 @@ const AddTransaction = ({ openUpdate, setOpenUpdate, updateObject, setUpdateObje
 
     };
 
+    const [test, setTest] = useState({
+        name: '',
+        age: '',
+        email: ''
+    })
+
     return (
         <>
             <h3>Add new transaction</h3>
@@ -49,6 +55,7 @@ const AddTransaction = ({ openUpdate, setOpenUpdate, updateObject, setUpdateObje
                 </div>
                 <button onClick={addTransaction} className="btn">Add transaction</button>
             </form>
+            <br />
         </>
     )
 }
